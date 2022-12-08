@@ -6,10 +6,7 @@
     --color-wh: #fff;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
     font-size: 100%;
     font-family: var(--font-1);
 }
@@ -19,7 +16,7 @@ body{
     padding: 90px 0;
 }
 
-.calculator {
+.calculator{
     width: 400px;
     margin: 0 auto;
     background: #ccc;
