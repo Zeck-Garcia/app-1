@@ -2,7 +2,7 @@
 
 const display = document.getElementById('display');
 const numeros = document.querySelectorAll('[id*=tecla]');
-const operadores = document.querySelectorAll('[id*=operador]');
+const operadores = document.querySelectorAll('[id*=sinal]');
 
 let novoNumero = true;
 let operador;
@@ -134,3 +134,6 @@ const mapearTeclado = (evento) => {
 
 
 document.addEventListener('keydown', mapearTeclado);
+
+
+// PROJETO DESENVOLVIDO A PARTIR DE CURSO DE JS
